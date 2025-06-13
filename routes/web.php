@@ -14,3 +14,8 @@ Route::get('/midtrans', function () {
 });
 
 Route::post('/midtrans/checkout', [MidtransController::class, 'checkout']);
+
+Route::get('/test', function () {
+    \Log::info('✅ Route test jalan!');
+    return 'Laravel jalan!';
+});
