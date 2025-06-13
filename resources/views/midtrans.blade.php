@@ -3,7 +3,7 @@
 <head>
     <title>Midtrans Payment</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="Mid-client-ZJRrwO--xxf40P5B"></script>
+    <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-t7CXLgdmBYX-jDwS"></script>
 </head>
 <body>
     <h1>Checkout Page</h1>
